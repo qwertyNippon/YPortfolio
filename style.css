@@ -167,6 +167,11 @@ nav .hamburger.active .bar {
     margin: 25px 0;
 }
 
+.left .btn button {
+    font-size: 15px;
+    font-weight: 600;
+}
+
 .home-info .right {
     flex: 1;
 }
