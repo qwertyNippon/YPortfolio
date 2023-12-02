@@ -46,3 +46,26 @@ nav .logo a {
     color: var(--white);
 }
 
+nav .logo a span {
+    color: var(--text-color);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    font-size: 18px;
+    list-style: none;
+    z-index: 1;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--white);
+    transition: 0.4s ease;
+}
+
+nav ul li a:hover {
+    color: var(--text-color);
+}
